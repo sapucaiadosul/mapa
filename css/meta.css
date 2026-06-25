@@ -1,0 +1,127 @@
+table .badge {
+	border-style: solid;
+	border-width: 1px;
+	margin: 0px 1px;
+}
+
+table .progress {
+	margin-bottom: 0px;
+}
+
+#anexo, #anexo #anexar {
+	margin-top: 10px;
+}
+
+#acompanhamento {
+    height: 200px;
+	background-color: #ffffff;
+    border-radius: 0 0 5px 5px;
+	color: #000;
+	margin-bottom: 10px;
+    overflow: auto;
+}
+
+#acompanhamento-textarea {
+	height: 0px;
+	width: 0px;
+	border: 0px;
+    display: none;
+	padding: 0px;
+	visibility: hidden;
+}
+
+#acompanhamentos>div {
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.alert-default {
+	color: #333333;
+	background-color: #eeeeee;
+	border-color: #cccccc;
+}
+
+.acao-class {
+	display: none;
+	visibility: hidden;
+}
+
+.acoes table td input[type=checkbox]{
+	height: 20px;
+	width: 20px;
+}
+
+.anexos {
+	max-height: 200px;
+}
+
+.btn-acao-aprova {
+	border-radius: 20px;
+}
+
+.date-union {
+	display: block;
+}
+
+.form-control[readonly], .form-control[readonly]:focus {
+	background-color: #fff;
+	border-color: #ccc;
+	box-shadow: none;
+}
+
+.indicador .input-group {
+	width: 100%;
+}
+
+.indicador .input-group .input-group-addon:first-child {
+	text-align: right;
+	width: 30%;
+}
+
+.input-group {
+	margin-bottom: 5px;
+}
+
+.progress-bar {
+	overflow: hidden;
+}
+
+.text-toolbar {
+    width: 100%;
+	border-radius: 5px 5px 0 0;
+    border-style: solid;
+	border-width: 1px;
+    margin-top: 2px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.tooltip-inner {
+	max-width: 300px;
+}
+
+@media screen and (min-width: 480px) {
+	#data_conclusao {
+		display: inline-block;
+		margin-left: 20px;
+		width: initial;
+	}
+
+	#data_inicial, #data_final {
+		box-sizing: border-box;
+		display: inline-block;
+		width: 45%;
+	}
+	
+	.date-union {
+		display:inline-block;
+		width: 8%;
+	}
+}
+
+#manter_monitoria {
+	display: none;
+	margin-left: 10px;
+}

@@ -1,0 +1,3 @@
+Adicionado campo para manter a monitoria da meta
+Adicionado filtro para listar por padrão as metas continuadas independente do mapa que estiverem
+Adicionado filtro para listar apenas as metas continuadas de determinado mapa

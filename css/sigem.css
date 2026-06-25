@@ -1,0 +1,68 @@
+#paginas a {
+	margin: 0px 2px
+}
+
+a .btn-inicio {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-inicio {
+    margin: 30px auto 0 auto;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn-inicio > img {
+    width: 97%;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-inicio:hover {
+    opacity: .8;
+    outline-style: none;
+    text-decoration: none;
+}
+
+.row {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.table > tbody > tr > td {
+	vertical-align: middle;
+}
+
+@media (max-width: 767px) {
+	nav + div {
+		margin-top: 71px;
+	}
+	
+	#acoes .btn {
+		width: 100%;
+		margin-top: 10px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-fixed-top {
+		position: static;
+	}
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.g-recaptcha {
+	width: 302px;
+	margin: auto;
+  }

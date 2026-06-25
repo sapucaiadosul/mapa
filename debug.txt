@@ -1,0 +1,6 @@
+WAMP selecionarNumeroRegistros called
+is_null($this->banco): false
+WAMP selecionarNumeroRegistros called
+is_null($this->banco): false
+WAMP selecionarNumeroRegistros called
+is_null($this->banco): false
