@@ -24,6 +24,12 @@ Class Banco{
 		try{
 			//Conecta ao banco de dados
 			$this->conexao = new PDO($config->{'db_banco'.$banco}, $config->{'db_usuario'.$banco}, $config->{'db_senha'.$banco});
+			// Remove apenas o ONLY_FULL_GROUP_BY para esta conexão
+			$this->conexao->exec("
+				SET SESSION sql_mode = (
+					SELECT REPLACE(@@sql_mode, 'ONLY_FULL_GROUP_BY', '')
+				)
+			");
 		}catch(PDOException $Exception){
 			die('Não foi possível acessar o banco de dado. Por favor, tente mais tarde.');
 		}
